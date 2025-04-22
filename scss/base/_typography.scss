@@ -1,0 +1,24 @@
+@use '../abstracts' as *;
+
+/* Import Roboto font with necessary weights */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+h1 {
+  @include font(48px, $font-weight-medium, 1.64);
+  margin-bottom: 60px;
+  text-align: left;
+  max-width: 540px;
+}
+
+h2 {
+  @include heading;
+}
+
+h3 {
+  @include font(21px, $font-weight-medium, 1.17);
+  margin-bottom: $spacing-sm;
+}
+
+p {
+  @include font;
+} 

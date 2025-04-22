@@ -1,0 +1,34 @@
+@use '../abstracts' as *;
+
+.numbers {
+  background-color: $primary-color;
+  padding: $spacing-lg 0;
+  
+  &__items {
+    @include flex(row, space-between);
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    @include respond-to(large) {
+      gap: 30px;
+      justify-content: center;
+    }
+  }
+  
+  &__item {
+    @include flex(row, flex-start, center, 20px);
+  }
+  
+  &__text {
+    @include flex(column);
+    color: $white;
+  }
+  
+  &__count {
+    @include font(21px, $font-weight-medium, 1.17);
+  }
+  
+  &__label {
+    @include font($font-size-base, $font-weight-regular, 1.64);
+  }
+} 

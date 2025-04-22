@@ -1,0 +1,31 @@
+@use '../abstracts' as *;
+
+.video {
+  background-color: $bg-secondary;
+  padding: $spacing-lg 0;
+  text-align: center;
+  
+  p {
+    max-width: 540px;
+    margin: 0 auto 57px;
+    color: $text-secondary;
+    @include font($font-size-base, $font-weight-regular, 1.64);
+  }
+  
+  &__container {
+    width: 100%;
+    max-width: $container-width;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    
+    @include respond-to(medium) {
+      height: 400px;
+    }
+    
+    @include respond-to(small) {
+      height: 300px;
+    }
+  }
+} 

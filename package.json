@@ -1,0 +1,26 @@
+{
+  "name": "simple-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/main.scss:css/styles.css",
+    "sass:watch": "sass --watch scss/main.scss:css/styles.css",
+    "build": "sass scss/main.scss:css/styles.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v1kv1k/simple-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v1kv1k/simple-site/issues"
+  },
+  "homepage": "https://github.com/v1kv1k/simple-site#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
+}

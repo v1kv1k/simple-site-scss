@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+.about-me {
+  padding: 112px 0;
+  text-align: center;
+  
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  
+  p {
+    color: $text-secondary;
+    @include font($font-size-base, $font-weight-regular, 1.64);
+  }
+} 

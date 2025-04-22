@@ -1,0 +1,22 @@
+@use '../abstracts' as *;
+
+footer {
+  background-color: $primary-color;
+  padding: 50px 0;
+  color: $white;
+  
+  &__content {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0 $padding-base;
+  }
+  
+  h3 {
+    @include font(21px, $font-weight-medium, 1.17);
+    margin-bottom: $spacing-sm;
+  }
+  
+  p {
+    @include font(13px, $font-weight-regular, 1.64);
+  }
+} 
