@@ -2,8 +2,7 @@
 node_modules/
 
 # Compiled CSS from SCSS
-css/styles.css
-css/styles.css.map
+styles.css.map
 
 # macOS specific files
 .DS_Store

@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass scss/main.scss:css/styles.css",
-    "sass:watch": "sass --watch scss/main.scss:css/styles.css",
-    "build": "sass scss/main.scss:css/styles.css --style compressed"
+    "sass": "sass scss/main.scss:styles.css",
+    "sass:watch": "sass --watch scss/main.scss:styles.css",
+    "build": "sass scss/main.scss:styles.css --style compressed"
   },
   "repository": {
     "type": "git",

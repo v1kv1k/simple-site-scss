@@ -1,130 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Site</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Дизайн и верстка</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- First Screen Section -->
-    <section class="first-screen">
+    <header class="first-screen">
         <div class="container">
-            <div class="first-screen__menu">
+            <nav class="first-screen__menu">
                 <div class="first-screen__menu-links">
-                    <a href="#" class="active">HOME</a>
-                    <a href="#">ABOUT</a>
-                    <a href="#">WORK</a>
-                    <a href="#">PROCESS</a>
-                    <a href="#">SERVICES</a>
-                    <a href="#">TESTIMONIALS</a>
-                    <a href="#">CONTACT</a>
+                    <a href="#" class="active">ГЛАВНАЯ</a>
+                    <a href="#about">ОБ АВТОРЕ</a>
+                    <a href="#numbers">РАБОТЫ</a>
+                    <a href="#process">ПРОЦЕСС</a>
+                    <a href="#contacts">КОНТАКТЫ</a>
                 </div>
-            </div>
-            
-            <h1>Design and layout</h1>
-            <p class="first-screen__description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
-            <button class="first-screen__button">WRITE ME</button>
+            </nav>
+            <h1>Дизайн и верстка</h1>
+            <p class="first-screen__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <button class="first-screen__button">НАПИСАТЬ МНЕ</button>
         </div>
-    </section>
+    </header>
 
-    <!-- About Me Section -->
-    <section class="about-me">
+    <section class="about-me" id="about">
         <div class="container">
-            <h2>About Me</h2>
-            <p>
-                About meLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book.
-            </p>
+            <h2>Обо мне</h2>
+            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
         </div>
     </section>
 
-    <!-- Numbers Section -->
-    <section class="numbers">
+    <section class="numbers" id="numbers">
         <div class="container">
             <div class="numbers__items">
                 <div class="numbers__item">
                     <div class="project-icon">
-                        <img src="https://via.placeholder.com/50" alt="Project Icon">
+                        <img src="images/project.svg" alt="Проект">
                     </div>
                     <div class="numbers__text">
-                        <div class="numbers__count">40+</div>
-                        <div class="numbers__label">projects</div>
+                        <span class="numbers__count">40+</span>
+                        <span class="numbers__label">проектов</span>
                     </div>
                 </div>
                 <div class="numbers__item">
                     <div class="project-icon">
-                        <img src="https://via.placeholder.com/50" alt="Project Icon">
+                        <img src="images/project.svg" alt="Проект">
                     </div>
                     <div class="numbers__text">
-                        <div class="numbers__count">40+</div>
-                        <div class="numbers__label">projects</div>
+                        <span class="numbers__count">40+</span>
+                        <span class="numbers__label">проектов</span>
                     </div>
                 </div>
                 <div class="numbers__item">
                     <div class="project-icon">
-                        <img src="https://via.placeholder.com/50" alt="Project Icon">
+                        <img src="images/project.svg" alt="Проект">
                     </div>
                     <div class="numbers__text">
-                        <div class="numbers__count">40+</div>
-                        <div class="numbers__label">projects</div>
+                        <span class="numbers__count">40+</span>
+                        <span class="numbers__label">проектов</span>
                     </div>
                 </div>
                 <div class="numbers__item">
                     <div class="project-icon">
-                        <img src="https://via.placeholder.com/50" alt="Project Icon">
+                        <img src="images/project.svg" alt="Проект">
                     </div>
                     <div class="numbers__text">
-                        <div class="numbers__count">40+</div>
-                        <div class="numbers__label">projects</div>
+                        <span class="numbers__count">40+</span>
+                        <span class="numbers__label">проектов</span>
                     </div>
                 </div>
                 <div class="numbers__item">
                     <div class="project-icon">
-                        <img src="https://via.placeholder.com/50" alt="Project Icon">
+                        <img src="images/project.svg" alt="Проект">
                     </div>
                     <div class="numbers__text">
-                        <div class="numbers__count">40+</div>
-                        <div class="numbers__label">projects</div>
+                        <span class="numbers__count">40+</span>
+                        <span class="numbers__label">проектов</span>
                     </div>
                 </div>
                 <div class="numbers__item">
                     <div class="project-icon">
-                        <img src="https://via.placeholder.com/50" alt="Project Icon">
+                        <img src="images/project.svg" alt="Проект">
                     </div>
                     <div class="numbers__text">
-                        <div class="numbers__count">40+</div>
-                        <div class="numbers__label">projects</div>
+                        <span class="numbers__count">40+</span>
+                        <span class="numbers__label">проектов</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Video Section -->
-    <section class="video">
+    <section class="video" id="process">
         <div class="container">
-            <h2>How I work</h2>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
+            <h2>Как я работаю</h2>
+            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             <div class="video__container">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0goZCfFxtno?si=f4_LET16kgqMHpKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer__content">
-            <h3>John Smith</h3>
-            <p>&copy; 2025 Simple Site. All rights reserved.</p>
+    <footer id="contacts">
+        <div class="container footer__content">
+            <h3>Иванов Иван</h3>
+            <p>(с) 2018. Все права защищены.</p>
         </div>
     </footer>
 </body>
