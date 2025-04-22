@@ -1,6 +1,5 @@
 @use 'variables' as *;
 
-// Flexbox mixins
 @mixin flex($direction: row, $justify: flex-start, $align: stretch, $gap: 0) {
   display: flex;
   flex-direction: $direction;
@@ -11,7 +10,6 @@
   }
 }
 
-// Typography mixins
 @mixin font($size: $font-size-base, $weight: $font-weight-regular, $line-height: 1.6) {
   font-size: $size;
   font-weight: $weight;
@@ -27,7 +25,6 @@
   font-family: $font-primary;
 }
 
-// Button mixin
 @mixin button($bg: $primary-color, $color: $white, $padding-y: 20px, $padding-x: 40px) {
   background-color: $bg;
   color: $color;
@@ -41,7 +38,6 @@
   font-family: $font-primary;
 }
 
-// Media query mixins
 @mixin respond-to($breakpoint) {
   @if $breakpoint == small {
     @media (max-width: $breakpoint-sm) {
